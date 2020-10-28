@@ -1,8 +1,8 @@
 ## ONLY FOR MAC OR LINUX 
 
-
 # Install https://pub.dev/packages/remove_from_coverage
-pub global activate remove_from_coverage
+flutter pub global activate remove_from_coverage
+export PATH="$PATH":"$HOME/.pub-cache/bin"
 
 # Effective test coverage
 flutter test --coverage
